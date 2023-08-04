@@ -1,0 +1,51 @@
+nav{
+    width: 100vw;
+    height: 5rem;
+    display: grid;
+    place-items:center;
+    background: var(--color-primary);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 9;
+    box-shadow: 0 1rem 1.5rem hsl(var(--primary-hue), 68%, 42%, 20%);
+    transition: var(--transition);
+}
+
+
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-logo{
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.nav-menu{
+    display: flex;
+    gap: 3rem;
+}
+
+.nav-menu a{
+    color: white;
+}
+
+#theme-icon{
+    background: transparent;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+/* Hide Nav menu on tablets and phones   */
+
+@media screen and (max-width: 1024px){
+    .nav-menu{
+        display: none;
+    }
+}
