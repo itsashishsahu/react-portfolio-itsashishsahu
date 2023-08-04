@@ -17,6 +17,8 @@ You can view the live demo of my portfolio at [itsashishsahu.com](https://www.it
 ## Technologies Used
 
 - React.js: A popular JavaScript library for building user interfaces.
+- SwiperJS: Swiper is the most modern free and open source mobile touch slider with hardware accelerated transitions and amazing native behavior.
+- AOS: Animation On Scroll is library used to give animation to any component.
 
 ## Features
 
