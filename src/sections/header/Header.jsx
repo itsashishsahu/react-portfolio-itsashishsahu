@@ -1,5 +1,5 @@
 import './header.css'
-import HeaderImage from '../../assets/header.jpg';
+import HeaderImage from '../../assets/header.png';
 import data from './data';
 import AOS from 'aos'
 import 'aos/dist/aos.css'
@@ -18,8 +18,8 @@ const Header = () => {
         <div className='header-profile' data-aos='flip-up'>
           <img src={HeaderImage} alt='Header potrait' className='img'></img>
         </div>
-        <h3 data-aos='fade-up' >Jitesh Kumar Shivgan</h3>
-        <p data-aos='fade-up' style={{fontFamily: 'cursive'}}>A very enthusiastic, proficient <b> Frontend/ReactJS developer </b> who hike mountains during vacations</p>
+        <h3 data-aos='fade-up' >Ashish Sahu</h3>
+        <p data-aos='fade-up' style={{fontFamily: 'cursive'}}>A very enthusiastic, proficient <b> Frontend/ReactJS developer </b> who loves to spend time with friends in freetime</p>
         <div className="header-cta" data-aos='fade-up'>
           <a href='#contact' className='btn primary'>Let's Talk</a>
           <a href='#portfolio' className='btn light'>My Work</a>

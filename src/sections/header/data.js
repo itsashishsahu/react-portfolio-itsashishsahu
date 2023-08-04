@@ -1,13 +1,12 @@
-import {AiOutlineInstagram} from 'react-icons/ai';
+import {AiOutlineYoutube} from 'react-icons/ai';
 import {AiOutlineLinkedin} from 'react-icons/ai';
 import {AiOutlineGithub} from 'react-icons/ai';
-import {AiOutlineTwitter} from 'react-icons/ai';
+
 
 const data=[
-    {id:1, link: 'https://www.instagram.com/j.shivgan/', icon: <AiOutlineInstagram/>},
-    {id:2, link: 'https://www.linkedin.com/in/jiteshshivgan/', icon: <AiOutlineLinkedin/>},
-    {id:3, link: 'https://github.com/jiteshshivgan', icon: <AiOutlineGithub/>},
-    {id:4, link: 'https://twitter.com/JSHIVGAN', icon: <AiOutlineTwitter/>}
+    {id:1, link: 'https://www.youtube.com/@itsashishsahu/', icon: <AiOutlineYoutube/>},
+    {id:2, link: 'https://www.linkedin.com/in/itsashishsahu/', icon: <AiOutlineLinkedin/>},
+    {id:3, link: 'https://github.com/itsashishsahu', icon: <AiOutlineGithub/>},
 ]
 
 export default data;

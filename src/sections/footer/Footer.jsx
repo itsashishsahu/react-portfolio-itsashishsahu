@@ -23,7 +23,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="footer-copyright">
-        <small>2023 Jitesh Shivgan &copy;  All rights reserved </small>
+        <small>2023 Ashish Sahu | itsashishsahu.com &copy;  All rights reserved </small>
       </div>
     </footer>
   );

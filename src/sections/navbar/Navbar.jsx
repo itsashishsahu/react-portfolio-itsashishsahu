@@ -1,5 +1,5 @@
 import './navbar.css'
-import Logo from "../../assets/logo.jpg";
+import Logo from "../../assets/logo.png";
 import data from "./data";
 import { IoIosColorPalette } from 'react-icons/io';
 import {useModalContext} from '../../context/modal-context'

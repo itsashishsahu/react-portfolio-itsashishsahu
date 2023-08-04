@@ -25,10 +25,10 @@ const About = () => {
             </Card>))}
           </div>
           <p>
-            Hi there! I'm <b> JITESH KUMAR SHIVGAN </b>, a passionate frontend developer with strong skills in <b>ReactJS</b>. I graduated from the prestigious <b style={{color: "var(--color-primary)"}}>Indian Institute of Technology (IIT) Kharagpur </b>. I have a deep understanding of <b>modern web technologies, including HTML, CSS, and JavaScript, Reactjs</b>.
+            Hi there! I'm <b> Ashish Sahu </b>, a passionate frontend developer with strong skills in <b>ReactJS</b>. I graduated from the <b style={{color: "var(--color-primary)"}}>Rustamji Institute of Technology (RJIT) Tekanpur </b>. I have a deep understanding of <b>modern web technologies, including HTML, CSS, and JavaScript, Reactjs</b>.
           </p>
           <p>I'm particularly proficient in utilizing the <b> power of ReactJS </b> to develop responsive and interactive web applications. Through my projects, I've gained hands-on experience in building <b> dynamic user interfaces, optimizing performance, and ensuring cross-browser compatibility.</b></p>
-          <p> In my free time, you can find me exploring the outdoors, hiking mountains, and seeking inspiration from nature's beauty. I am a <b>certified Mountaineer too </b> from Atal Bihari Vajpayee Institute of Mountaineering and Allied Sports, Manali (H.P) </p>
+          <p> In my free time, you can find me exploring the outdoors, cooking different cuisines, and seeking inspiration from nature's beauty.</p>
           <div className="skills-button" data-aos='zoom-in'>
               {
                 skills.map((skill)=><button className="skill-button" key={skill.id}>
